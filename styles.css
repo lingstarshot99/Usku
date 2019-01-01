@@ -1,0 +1,247 @@
+* {
+  padding: 0;
+  margin:0;
+  /* border: red 1px solid; */
+}
+
+header {
+  height: 10vh;
+  width: 100%;
+  background-color: black;
+}
+
+footer {
+  width: 100%;
+  height: 20vh;
+  background-color: black;
+}
+
+footer h4 {
+  color: white;
+  text-align: center;
+  padding: 20px 0 10px 0;
+}
+
+footer hr {
+  width: 95%;
+  margin: 0 auto;
+  color: white;
+}
+
+footer li {
+  float: right;
+  padding: 20px 30px 0 0;
+  list-style-type: none;
+}
+
+footer li a:hover {
+  color: rgb(0,200,255);
+}
+
+#copyright {
+  float: left;
+  padding: 20px 0 0 30px;
+}
+
+footer li a {
+  text-decoration: none;
+  color: white;
+}
+
+.fa {
+  background-color: black;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  width: 70px;
+  padding-bottom: 10px;
+}
+
+.fa:hover {
+  color: rgb(0,200,255);
+}
+
+footer section {
+  width: 100%;
+  text-align: center;
+}
+
+#logo {
+  float: left;
+}
+
+.nav-item li {
+  display: inline;
+  float: right;
+  width: 15%;
+  text-align: center;
+}
+
+.nav-item li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  display: block;
+  padding: 20px 0;
+}
+
+.nav-item li a:hover {
+  border-bottom: 3px solid rgb(0,200,255);
+  color: rgb(0,200,255);
+}
+
+body {
+  background-color: white;
+}
+
+#main {
+  clear: both;
+  width: 100%;
+  height: 70vh;
+  background: rgba(0,200,255,0.6) url(pic/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: darken;
+}
+
+.wrapper {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.main-content {
+  width: 60%;
+  padding: 100px 0;
+}
+
+.btn a {
+  text-decoration: none;
+  color: rgb(0,200,255);
+  padding: 15px 20px;
+  border: 3px rgb(0,200,255) solid;
+  border-radius: 50px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.btn a:hover {
+  color: white;
+}
+
+.main-content h1, .main-content h2 {
+  color: white;
+}
+
+.main-content h2 {
+  margin-bottom: 40px;
+  margin-top: 10px;
+}
+
+.content {
+  width: 60%;
+  margin: 0 auto;
+  padding: 30px 0;
+  display: flex;
+}
+
+.content section {
+  text-align: center;
+  width: 50%;
+}
+
+.content article {
+  text-align: left;
+  width: 50%;
+  padding: 80px 0;
+}
+
+.content article p {
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.content article a {
+  text-decoration: none;
+  border: 2px solid rgb(0,200,255);
+  padding: 15px 20px;
+  color: white;
+  border-radius: 50px;
+  font-weight: bold;
+  background-color: rgb(0,200,255);
+}
+
+#receivo article {
+  text-align: right;
+}
+
+hr {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.content article a:hover {
+  color: rgb(0,200,255);
+  background-color: white;
+}
+
+#rewards {
+  background-color: rgb(0,200,255);
+  height: 40vh;
+  width: 100%;
+  padding: 50px 0;
+}
+
+#rewards article {
+  text-align: center;
+}
+
+#rewards article h1 {
+  font-size: 35px;
+}
+
+#rewards section {
+  width: 40%;
+  margin: 30px auto;
+  display: flex;
+}
+
+.item {
+  margin-right: 50px;
+}
+
+.item h3 {
+  text-align: center;
+}
+
+#about {
+  height: 75vh;
+  width: 100%;
+  background-color: lightgrey;
+  padding: 20px 0;
+}
+
+#about h1 {
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+#about .wrapper {
+  display: flex;
+}
+
+#about .wrapper section, #about .wrapper article {
+  width: 50%;
+}
+
+#about article {
+  border-left: solid black 1px;
+  padding-left: 15px;
+  padding-top: 40px;
+}
+
+#about .wrapper section {
+  text-align: right;
+  padding-right: 15px;
+}
