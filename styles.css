@@ -8,13 +8,13 @@
 header {
   height: 10vh;
   width: 100%;
-  background-color: black;
+  background-color: #4169e1;
 }
 
 footer {
   width: 100%;
   height: 23vh;
-  background-color: black;
+  background-color: #4169e1;
 }
 
 footer h4 {
@@ -36,7 +36,7 @@ footer li {
 }
 
 footer li a:hover {
-  color: #4169e1;
+  color: black;
 }
 
 #copyright {
@@ -50,7 +50,7 @@ footer li a {
 }
 
 .fa {
-  background-color: black;
+  background-color: #4169e1;
   text-align: center;
   text-decoration: none;
   color: white;
@@ -59,7 +59,7 @@ footer li a {
 }
 
 .fa:hover {
-  color: #4169e1;
+  color: black;
 }
 
 footer section {
@@ -88,8 +88,8 @@ footer section {
 }
 
 .nav-item li a:hover {
-  border-bottom: 3px solid #4169e1;
-  color: #4169e1;
+  border-bottom: 3px solid black;
+  color: black;
 }
 
 body {
