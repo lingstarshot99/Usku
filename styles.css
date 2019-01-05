@@ -69,8 +69,8 @@ footer section {
 
 #logo {
   float: left;
-  margin-left: 70px;
-  margin: 10px;
+  margin-left: 50px;
+  margin-top: 7px;
 }
 
 .nav-item li {
@@ -89,7 +89,7 @@ footer section {
 }
 
 .nav-item li a:hover {
-  border-bottom: 3px solid black;
+  border-bottom: 4px solid black;
   color: black;
 }
 
@@ -206,7 +206,7 @@ hr {
 
 #rewards section {
   width: 40%;
-  margin: 30px auto;
+  margin: 48px auto;
   display: flex;
 }
 
@@ -243,6 +243,7 @@ hr {
   border-left: solid black 1px;
   padding-left: 15px;
   padding-top: 50px;
+  font-size: 18px;
 }
 
 #about .wrapper section {
