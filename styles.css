@@ -70,6 +70,7 @@ footer section {
 #logo {
   float: left;
   margin-left: 70px;
+  margin: 10px;
 }
 
 .nav-item li {
