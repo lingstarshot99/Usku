@@ -42,6 +42,7 @@ footer li a:hover {
 #copyright {
   float: left;
   padding: 20px 0 0 30px;
+  color: white;
 }
 
 footer li a {
@@ -101,7 +102,7 @@ body {
   clear: both;
   width: 100%;
   height: 70vh;
-  background: rgba(0,200,255,0.6) url(pic/banner.jpg);
+  background: rgba(0,200,255,0.6) url(../pic/banner.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -175,7 +176,7 @@ body {
   background-color: #4169e1;
 }
 
-#receivo article {
+#customer article {
   text-align: right;
 }
 
@@ -242,7 +243,7 @@ hr {
 #about article {
   border-left: solid black 1px;
   padding-left: 15px;
-  padding-top: 50px;
+  padding-top: 90px;
   font-size: 18px;
 }
 
