@@ -6,14 +6,14 @@
 }
 
 header {
-  height: 10vh;
+  height: 4.1em;
   width: 100%;
   background-color: #4169e1;
 }
 
 footer {
   width: 100%;
-  height: 23vh;
+  height: 10em;
   background-color: #4169e1;
 }
 
@@ -101,7 +101,7 @@ body {
 #main {
   clear: both;
   width: 100%;
-  height: 70vh;
+  height: 30em;
   background: rgba(0,200,255,0.6) url(../pic/banner.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -144,7 +144,7 @@ body {
 }
 
 .content {
-  width: 60%;
+  width: 90%;
   margin: 0 auto;
   padding: 30px 0;
   display: flex;
@@ -181,7 +181,7 @@ body {
 }
 
 hr {
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -192,7 +192,7 @@ hr {
 
 #rewards {
   background-color: #4169e1;
-  height: 50vh;
+  /* height: 20em; */
   width: 100%;
   padding: 50px 0;
 }
@@ -206,13 +206,15 @@ hr {
 }
 
 #rewards section {
-  width: 40%;
-  margin: 48px auto;
-  display: flex;
+  width: 50%;
+  display: block;
+  padding-top: 1em;
+  margin: 0 auto;
 }
 
 .item {
-  margin-right: 50px;
+  margin-left: 3.3em;
+  display: inline-block;
 }
 
 .item h3 {
@@ -220,10 +222,9 @@ hr {
 }
 
 #about {
-  height: 75vh;
   width: 100%;
   background-color: lightgrey;
-  padding: 50px 0;
+  padding: 1em 0 4em 0;
 }
 
 #about h1 {
@@ -234,20 +235,109 @@ hr {
 
 #about .wrapper {
   display: flex;
+  width: 80%;
 }
 
-#about .wrapper section, #about .wrapper article {
-  width: 50%;
+#about a {
+  background-color: #4169e1;
+  color: white;
+  padding: 1em 2em;
+  border-radius: 5em;
+  border: white 0.2em solid;
+  text-decoration: none;
+  display: inline-block;
 }
 
 #about article {
   border-left: solid black 1px;
   padding-left: 15px;
-  padding-top: 90px;
   font-size: 18px;
+  width: 30%;
 }
 
 #about .wrapper section {
   text-align: right;
-  padding-right: 15px;
+  padding-right: 1em;
+  width: 50%;
+}
+
+@media screen and (max-width: 600px) {
+  .nav-item li {
+    display: block;
+    width: 100%;
+  }
+
+  .nav-item li a {
+    background-color: #4169e1;
+  }
+
+  #logo {
+    float: none;
+    margin: 0;
+    text-align: center;
+  }
+
+  .wrapper {
+    width: 90%;
+  }
+
+
+}
+
+@media screen and (max-width: 700px) {
+  .main-content {
+    width: 100%;
+    text-align: center;
+  }
+
+  .content {
+    display: block;
+  }
+
+  .content section {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .content article {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 2em 0;
+  }
+
+  #customer article {
+    text-align: center;
+  }
+
+  #about .wrapper {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  #about .wrapper {
+    display: block;
+    /* border: 1px red solid; */
+  }
+
+  #about .wrapper section {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+  }
+
+  #about .wrapper article {
+    width: 100%;
+    border: none;
+    padding: 0;
+    text-align: center;
+  }
+
+  #about {
+    height: 45em;
+  }
+
 }
